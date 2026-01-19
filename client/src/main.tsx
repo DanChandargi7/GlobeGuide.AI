@@ -7,7 +7,7 @@ createRoot(document.getElementById("root")!).render(
   <BrowserRouter>
     <img
       src="./src/assets/bg.jpg"
-      alt="Travel Background"
+      alt=""
       className="absolute inset-0 w-full h-screen object-cover z-0"
     />
     <App />
