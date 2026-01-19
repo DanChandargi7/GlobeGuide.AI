@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const app = express();
 app.use(cors({
-  origin:"https://globe-guide-ai.vercel.app/",
+  origin:"https://globe-guide-ai.vercel.app",
   methods:["POST"],
   credentials:true,
 }));
