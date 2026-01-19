@@ -1,5 +1,4 @@
 import Cards from "../components/Cards";
-
 const Explore = () => {
   const destinations = [
     {
