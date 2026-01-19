@@ -1,7 +1,3 @@
-import React from "react";
-import Cards from "../components/Cards";
-import kyotoImg from "../assets/Kyoto.jpg";
-
 const Explore = () => {
   const destinations = [
     {

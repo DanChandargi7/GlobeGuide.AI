@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { MapPin, ArrowRight, Loader, Loader2 } from "lucide-react";
+import { useState } from "react";
+import { MapPin, ArrowRight, Loader2 } from "lucide-react";
 
 interface HeroProps {
   onPlan: (destination: string) => void;

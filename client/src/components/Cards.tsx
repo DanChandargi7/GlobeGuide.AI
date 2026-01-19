@@ -1,5 +1,4 @@
 import { ArrowUpRight, MapPin } from "lucide-react";
-import React from "react";
 
 interface ExploreCardProps {
   image: string | any;

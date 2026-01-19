@@ -1,14 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ItineraryResults from "./components/ItineraryResults";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  Router,
-  useNavigate,
-} from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Explore from "./pages/Explore";
 import Pricing from "./pages/Pricing";
 

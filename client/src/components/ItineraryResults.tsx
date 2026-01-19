@@ -1,5 +1,4 @@
 import { Calendar, CloudSun, Info, Map } from "lucide-react";
-import React from "react";
 
 const ItineraryResults = ({ data }: { data: any }) => {
   if (!data) return null;
@@ -30,7 +29,7 @@ const ItineraryResults = ({ data }: { data: any }) => {
                   key={i}
                   className="border-l-2 border-blue-500/30 pl-6 relative"
                 >
-                  <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 border-4 border-white" />
+                  <div className="absolute left-[9px] top-0 w-4 h-4 rounded-full bg-blue-500 border-4 border-white" />
                   <h3 className="font-bold text-slate-900 mb-2">Day {i + 1}</h3>
                   <p className="leading-relaxed">{day.content}</p>
                 </div>
