@@ -25,7 +25,7 @@ app.post('/api/plan-trip', async (req, res) => {
     const { destination } = req.body;
 
     try {
-        const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash-latest" }); // Note: check your model name (usually 1.5-flash)
+        const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" }); // Note: check your model name (usually 1.5-flash)
         const prompt = `
         Create a 3-day travel itinerary for ${destination}. 
         Return only a JSON object with the following structure:
