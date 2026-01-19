@@ -5,7 +5,11 @@ const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
-app.use(cors({origin:"https://globe-guide-ai.vercel.app/"}));
+app.use(cors({
+  origin:"https://globe-guide-ai.vercel.app/",
+  methods:["POST"],
+  credentials:true,
+}));
 app.use(express.json());
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
