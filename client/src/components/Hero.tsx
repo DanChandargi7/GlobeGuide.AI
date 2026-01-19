@@ -16,10 +16,7 @@ const Hero = ({ onPlan, loading }: HeroProps) => {
   return (
     <div className="relative w-full h-dvh flex flex-col items-center justify-center text-center px-4 overflow-hidden">
       {/* 1. Background Image with dark overlay */}
-      <img
-        src="./src/assets/bg.jpg"
-        className="absolute inset-0 w-full h-full object-cover z-0"
-      />
+
       <div className="absolute inset-0 bg-black/40 z-10" />
 
       {/* 2. Content Layer */}
