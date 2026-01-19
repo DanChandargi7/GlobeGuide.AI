@@ -9,7 +9,7 @@ app.use(cors({origin:"https://globe-guide-ai.vercel.app/"}));
 app.use(express.json());
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
-app.post('/api/plan-trip',async(req,res)=>{
+app.post('https://globe-guide-api.vercel.app/api/plan-trip',async(req,res)=>{
     const {destination} = req.body;
 
     try {

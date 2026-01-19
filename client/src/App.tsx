@@ -14,11 +14,14 @@ const App = () => {
   const handlePlanTrip = async (destination: string) => {
     setLoading(true);
     try {
-      const response = await fetch("https://globe-guide-api.vercel.app/", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ destination }),
-      });
+      const response = await fetch(
+        "https://globe-guide-api.vercel.app/api/plan-trip",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ destination }),
+        }
+      );
 
       const data = await response.json();
       setItinerary(data); // This matches our ItineraryResults prop structure!
