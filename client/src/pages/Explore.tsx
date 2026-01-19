@@ -4,27 +4,27 @@ const Explore = () => {
   const destinations = [
     {
       title: "Kyoto, Japan",
-      img: "./src/assets/Kyoto.jpg",
+      img: "https://i.ibb.co/DPJj2pkc/Kyoto.jpg",
       desc: "Experience the perfect blend of ancient temples and neon-lit streets.",
     },
     {
       title: "Amalfi Coast, Italy",
-      img: "./src/assets/italy.jpg",
+      img: "https://i.ibb.co/7x0bWmLX/italy.jpg",
       desc: "Sun-drenched cliffs and turquoise waters await in this Mediterranean paradise.",
     },
     {
       title: "Svalbard, Norway",
-      img: "./src/assets/norway.jpg",
+      img: "https://i.ibb.co/RG08vR4M/norway.jpg",
       desc: "A land of dramatic glaciers and polar bears under the ethereal Northern Lights.",
     },
     {
       title: "Bagan, Myanmar",
-      img: "./src/assets/myanmar.jpg",
+      img: "https://i.ibb.co/9Hg3QYS2/myanmar.jpg",
       desc: "Rise with the hot air balloons over thousands of ancient golden pagodas at sunrise.",
     },
     {
       title: "Santorini, Greece",
-      img: "./src/assets/santorini.jpg",
+      img: "https://i.ibb.co/LX7719CS/santorini.jpg",
       desc: "Iconic blue-domed churches and whitewashed houses overlooking the Aegean Sea.",
     },
     {
@@ -34,7 +34,7 @@ const Explore = () => {
     },
     {
       title: "Chefchaouen, Morocco",
-      img: "./src/assets/morocco.jpg",
+      img: "https://i.ibb.co/RxHnSGb/morocco.jpg",
       desc: "Get lost in the mesmerizing, dreamlike blue-washed streets of the Rif Mountains.",
     },
 

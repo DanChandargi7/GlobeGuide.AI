@@ -18,7 +18,6 @@ const Hero = ({ onPlan, loading }: HeroProps) => {
       {/* 1. Background Image with dark overlay */}
       <img
         src="./src/assets/bg.jpg"
-        alt="Travel Background"
         className="absolute inset-0 w-full h-full object-cover z-0"
       />
       <div className="absolute inset-0 bg-black/40 z-10" />
