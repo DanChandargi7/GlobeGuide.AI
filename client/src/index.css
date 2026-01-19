@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap');
+@import "tailwindcss";
+
+
+
+@theme {
+  /* This creates the font-heading and font-body classes */
+  --font-heading: "Plus Jakarta Sans", ui-sans-serif, system-ui;
+  --font-body: "Inter", ui-sans-serif, system-ui;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/bg.jpg'); /* Use your main BG path */
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Add a global dark overlay if needed */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust darkness here */
+  z-index: -1;
+}
